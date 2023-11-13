@@ -41,36 +41,106 @@
     <div class="w3-main w3-padding-large" style="margin-left:40%">
     
       <!-- Menu icon to open sidebar -->
-      <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+    <!-- <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span> -->
     
       <!-- Header -->
-      <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <header class="w3-container w3-center" style="padding:10px 16px" id="nav">
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <style>.topnav a {
+          float: center;
+          color: black;
+          text-align: center;
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: 17px;
+          box-sizing: border-box;
+        }
+          .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        </style>
+      </header>
+      <header class="w3-container w3-center" style="padding:80px 16px" id="home">
         <h1 class="w3-jumbo"><b>Lee Ann Dunn</b></h1>
         <p>Student | Computer Scientist | Software Engineer</p>
-        <img src="/portrait.png" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-        <img src="/portrait.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+        <img src="portrait.jpeg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+        <img src="portrait.jpeg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
         <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
           <i class="fa fa-download"></i> Download Resume
         </button>
+        <p> </p>
       </header>
 
       <!-- About Section -->
       <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
         <h2>About</h2>
         <hr class="w3-opacity">
-        <p>I am a 4th year student at Colorado State University, majoring in Computer Science with a concentration in Networks and Security as well as Pre-Medicine. I love working to improve our community and working to make the world a healthier and safer place. I enjoy having a change of pace in my life and always adapting to new environments!
-        </p>
-        <h3 class="w3-padding-16">My Skills</h3>
-        <p class="w3-wide">Languages:</p>
-        <p class="w3-wide">Software:</p>
+        <p>I am a 4th year student at Colorado State University, majoring in Computer Science with a concentration in Networks and Security as well as Pre-Medicine. I love working to improve our community and helping to make the world a healthier and safer place. I enjoy having a change of pace in my life and easily adapting to new environments!</p>
+        <p>A Little More About Me: I am from a small bordertown in Texas called Eagle Pass! I was born and raised by my amazing parents just 2 minutes from Mexico. I am a native Spanish speaker and love all things about my Mexican heritage. My sister, Shania is my best friend, along with my two fur babies, Oakley and Lady. I grew up playing the lovely sport of softball, and have now found a new passion in Computer Science. Welcome to my page!</p>
       </div>
     
       <!-- Portfolio Section -->
       <div class="w3-padding-32 w3-text-grey w3-content" id="portfolio">
-        <h2 class="w3-text-grey">My Portfolio</h2>
+        <h2 class="w3-text-grey">Portfolio</h2>
         <hr class="w3-opacity">
-        <p class="w3-wide">Relevent Education:</p>
-        <p class="w3-wide">Projects:</p>
+        <p>Languages: 
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>SQL</li>
+          </ul>
+        </p>
+        <p>Software:
+          <ul>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>WireShark</li>
+            <li>IntelliJ</li>
+            <li>VSCode</li>
+            <li>Eclipse</li>
+            <li>PyCharm</li>
+            <li>R</li>
+          </ul>
+        </p>
+        <p>Other Skills: Teamwork, Communication, Bilingual (English, Spanish), Punctuality, Interpersonal Skills</p>
+        <p>Relevent Education:
+          <ul>
+            <li>CS 150 - Culture and Coding (Java)</li>
+            <li>CS 163/164 - Introduction to Java Programming</li>
+            <li>CS 165 - Data Structures (Java)</li>
+            <li>CS 220 - Discrete Structures (Python)</li>
+            <li>CS 253 - Software Development with C++</li>
+            <li>CS 270 - Computer Organization</li>
+            <li>CS 356 - Systems Security</li>
+            <li>CS 370 - Operating Systems (C, C++, Assembly, Python)</li>
+            <li>CS 456 - Modern Cyber Security</li>
+            <li>CS 314 - Software Engineering</li>
+            <li>CS 320 - Algorithms - Theory & Practice</li>
+            <li>CS 345 - Machine Learning</li>
+            <li>CS 420 - Database Systems</li>
+            <li>CS 458 - Blockchain</li>
+            <li>CS 457 - Networks & Security</li>
+          </ul> 
+        </p>
+        <p>Relevent Work: 
+          <ul>
+            <li>Software Engineer Internship at CACI International Inc.</li>
+            <li>Research Assistant under AMI</li>
+            <li>Computer Science Teaching Assistant</li>
+            <li>Cybersecurity Camp for High School Girls</li>
+          </ul> 
+        </p>
 
     
         <!-- Grid for photos -->
@@ -138,7 +208,7 @@
     
       <!-- Contact Section -->
       <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
-        <h2>Contact Me</h2>
+        <h2>Contact</h2>
         <hr class="w3-opacity">
     
         <div class="w3-section">
@@ -148,7 +218,7 @@
         </div>
         
        
-        <p>Lets get in touch. Send me a message:</p>
+        <!-- <p>Lets get in touch. Send me a message:</p>
         <form action="/action_page.php" target="_blank">
           <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required="" name="Name"></p>
           <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required="" name="Email"></p>
@@ -159,7 +229,7 @@
               <i class="fa fa-paper-plane"></i> SEND MESSAGE
             </button>
           </p>
-        </form>
+        </form> -->
       <!-- End Contact Section -->
       </div>  
       
@@ -180,14 +250,14 @@
     
     <script>
     // Open and close sidebar
-    function openNav() {
-      document.getElementById("mySidebar").style.width = "60%";
-      document.getElementById("mySidebar").style.display = "block";
-    }
+    // function openNav() {
+    //   document.getElementById("mySidebar").style.width = "60%";
+    //   document.getElementById("mySidebar").style.display = "block";
+    // }
     
-    function closeNav() {
-      document.getElementById("mySidebar").style.display = "none";
-    }
+    // function closeNav() {
+    //   document.getElementById("mySidebar").style.display = "none";
+    // }
     </script>
     
     
